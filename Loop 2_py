@@ -1,0 +1,31 @@
+# University Grading Model
+# prompt user to input marks the grade category
+points = int(input("Please supply the points(0-100): "))
+# Grade category based on points
+if points > 70:
+    print ("First Class Honours")
+elif points >= 60:
+    print ("Second Class Honours (Upper Division)")
+elif points >= 50:
+    print ("Second Class (Lower Division)")
+elif points >= 40:
+    print ("Pass")
+else:
+    print ("Fail")
+
+# Subject Grading System
+marks = int(input("Please enter the pupils marks (0-100): "))
+if marks > 80:
+    print ("A")
+elif marks >= 70:
+    print ("B")
+elif marks >= 60:
+    print ("C")
+elif marks >= 50:
+    print ("D")
+else:
+    print ("E")
+
+
+
+    
