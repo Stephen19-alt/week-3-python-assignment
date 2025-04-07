@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta lang="en-UK"
+        <meta name="description" content="A Web for Understanding Lifestyle Diseases">
+        <meta name="author" content="Stephen Okoth">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stephen Okoth Portfolio</title>
+        <style>
+            header {
+                background-color: rgb(240, 251, 255);
+                color: purple;
+                text-align: center;
+                padding: 50px 25px;
+            }
+            body {background-color: rgba(220, 220, 220, 0.158); 
+                font-family: Arial, Helvetica, sans-serif; 
+                margin: 0; 
+                padding:0
+            }
+            h1 {margin-bottom: 20px; 
+                font-size: 2.5rem;
+            }
+            nav {background-color: rgba(0, 0, 255, 0.493); 
+                display: flex; 
+                justify-content: center; 
+                gap: 20px; 
+                padding: 15px;
+             }
+             nav a {color: purple; 
+                font-weight: bolder; 
+                text-decoration: none;
+            }
+            section {max-width: 800px;
+                margin: 50px auto;
+                padding: 0 20px;
+            }
+            section h1 {color: rgb(143, 188, 165); 
+                margin-bottom: 20px;
+            }
+            .bio, .experience, .milestones, .skills, .contact., Download {
+                background-color: white;
+                padding: 25px;
+                border-radius: 15px;
+                box-shadow: rgba(0, 0, 255, 0.301);
+                margin-bottom: 25px;
+            }
+            footer {
+                background-color: blueviolet;
+                color: white;
+                text-align: center;
+                padding: 25px
+            }
+            input, textarea, button, a.download-btn {
+                width: 100%;
+                padding: 25px;
+                margin-top: 15px;
+                border-radius: 8px;
+                border: 2px solid;
+                font-size: 1rem;
+                display: block;
+                text-align: center;
+            }
+            button {
+                cursor: pointer;
+                background-color: rgba(25, 0, 255, 0.007);
+                text-decoration: none;
+                color: rgb(71, 122, 143);
+                border:none
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <p>Stephen Okoth-Industrial Chemist</p>
+            <p>Research & Development Chemist | Quality Control | OSHA Specialist | ISO 9001:2015 Auditor</p>
+        </header>
+        <nav a href="#bio">About Me</nav>
+        <nav a href="#experience">Work Experience</nav>
+        <nav a href="#milestones">Projects</nav>
+        <nav a href="#skills">Competencies</nav>
+        <nav a href="#contact">Contact Me</nav>
+
+        <section id="bio" class="bio">
+            <h1>About Me</h1>
+            <p>I am a detail-oriented, enthusiastic and self-driven industrial chemist with 8+ years of
+                 experience and proven expertise in synthesis, formulation and characterization of synthetic
+                resins and SMC/GRP products. I am adept at coordinating testing and development of new products
+                while providing technical solutions. I specialise in the chemical analysis of raw material and 
+                finished products as well as recording results and preparing analytical reports.</p>
+        </section>
+        <section id="experience" class="experience">
+            <h1>Work Experience</h1>
+            <ul>
+                <li>Research and Development Chemist: Developed and commercialized dispersing agent,
+                    styrene acryclic emulsion, and PET-based long oil</li>
+                <li>Quality Control: Analyze incoming raw materials, in-process and end GRP products</li>
+                <li>OSHA Specialist: Trains staff on safety and chairs OSHA committee</li>
+                <li>ISO 9001:2015-Auditing and ensuring ISO 9001:2015 compliance</li>
+            </ul>
+        </section>
+        <section id="milestones" class="milestones">
+            <h1>Projects</h1>
+            <p>Styrene Arcylic Emulsion</p>
+            <p>Determination of residual chlorine in drinking water</p>
+            <p>Phosphate-based dispersing agent</p>
+        </section>
+        <section id="skills" class="skills">
+            <h1>Competencies</h1>
+            <p>Chemical Analysis</p>
+            <p>SMC/Resin Formulation</p>
+            <p>Production Planning</p>
+            <p>Project Management</p>
+        </section>
+        <section class="Download">
+            <h3>Download my Resume</h3>
+            <a href="C:\Users\Admin\Downloads\Stephen Okoth CV.pdf" class="download-btn">Click here to download my resume</a>
+        </section>
+        <section id="contact" class="contact">
+            <h1>Contact Me</h1>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Enter Your Name" required />
+                <input type="text" id="email" placeholder="Type Your Email" required />
+                <input type="number" id="PhoneNumber" placeholder="Enter Your Phone Number" required />
+                <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <footer>
+            &copy; 2025 Stephen Okoth
+        </footer>
+    </body>
+</html>
