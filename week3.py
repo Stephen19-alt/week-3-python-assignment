@@ -11,7 +11,7 @@ price= int(input("Please enter the original price: "))
 discount_percent =int(input("Please enter the percent discount: "))
 selling_price = calculate_discount(price, discount_percent)
 if selling_price < price:
-    print("The selling price after applying discount is: ", selling_price)
+    print(f"The selling price after applying discount is: {selling_price}")
 else:
-    print("There is no discount applied, the selling_price is:", price)
+    print(f"There is no discount applied, the selling_price is: {price}")
 
